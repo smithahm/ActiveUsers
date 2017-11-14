@@ -1,0 +1,11 @@
+IN PROGRESS ::
+
+This program is to find most active users in web server access logs. 
+
+Input is access logs and N ::: 
+
+Access logs has a bunch of lines with three columns: timestamp, userid, and path. 
+
+The line "1436911100008,50215,/item/36993" means that user id 50215 accessed "/item/36993" at t = 1436911100008.I am using Java8 and GZIPstream to read zip file.
+
+Output :::  should be the list of UserId's which have N distinct paths and output should be written to disk file 
